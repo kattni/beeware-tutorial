@@ -30,7 +30,7 @@
       
       
       
-        <link rel="canonical" href="https://tutorial.beeware.org/zh-tw/tutorial/tutorial-1/">
+        <link rel="canonical" href="https://tutorial.beeware.org/zh_TW/tutorial/tutorial-1/">
       
       
         <link rel="prev" href="../tutorial-0/">
@@ -167,7 +167,7 @@ aria-label="頁首"
 
     <!-- Link to home -->
     <a
-      href="../.."
+      href="https://beeware.org/zh_TW/"
       title="BeeWare Tutorial"
       class="md-header__button md-logo"
       aria-label="BeeWare Tutorial"
@@ -187,7 +187,7 @@ aria-label="頁首"
     <!-- Header title -->
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
-      <a href="../.."
+      <a href="https://beeware.org/zh_TW/"
          title="BeeWare Tutorial">
         <div class="md-header__topic">
           <span class="md-ellipsis">
@@ -207,33 +207,33 @@ aria-label="頁首"
     <ul class="md-tabs__list">
     
     <li class="md-tabs__item">
-      <a href="https://beeware.org/zh-tw/about" class="md-tabs__link">
+      <a href="https://beeware.org/zh_TW/about" class="md-tabs__link">
           關於
       </a>
     </li>
     <li class="md-tabs__item md-tabs__item--active">
-      <a href="https://beeware.org/zh-tw/docs" class="md-tabs__link">
+      <a href="https://beeware.org/zh_TW/docs" class="md-tabs__link">
           文件
       </a>
     </li>
     <li class="md-tabs__item">
-      <a href="https://beeware.org/zh-tw/community" class="md-tabs__link">
+      <a href="https://beeware.org/zh_TW/community" class="md-tabs__link">
           社群
       </a>
     </li>
     <li class="md-tabs__item">
-      <a href="https://beeware.org/zh-tw/contributing" class="md-tabs__link">
+      <a href="https://beeware.org/zh_TW/contributing" class="md-tabs__link">
           貢獻
       </a>
     </li>
     <li class="md-tabs__item">
-      <a href="https://beeware.org/zh-tw/news" class="md-tabs__link">
+      <a href="https://beeware.org/zh_TW/news" class="md-tabs__link">
           新聞
       </a>
     </li>
     <li class="md-tabs__item">
-      <a href="https://beeware.org/zh-tw/membership" class="md-tabs__link">
-          贊助
+      <a href="https://beeware.org/zh_TW/membership" class="md-tabs__link">
+          贊助商
       </a>
     </li>
     
@@ -1755,6 +1755,10 @@ aria-label="頁首"
 <div class="highlight"><pre><span></span><code><span class="gp gp-VirtualEnv">(beeware-venv)</span> <span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>helloworld
 <span class="gp gp-VirtualEnv">(beeware-venv)</span> <span class="gp">$ </span>briefcase<span class="w"> </span>dev
 
+<span class="go">[helloworld] Activating dev environment...</span>
+<span class="go">...</span>
+<span class="go">Creating virtual environment (dev.cpython-313-darwin)... done</span>
+
 <span class="go">[hello-world] Installing requirements...</span>
 <span class="go">...</span>
 
@@ -1766,6 +1770,10 @@ aria-label="頁首"
 <div class="highlight"><pre><span></span><code><span class="gp gp-VirtualEnv">(beeware-venv)</span> <span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>helloworld
 <span class="gp gp-VirtualEnv">(beeware-venv)</span> <span class="gp">$ </span>briefcase<span class="w"> </span>dev
 
+<span class="go">[helloworld] Activating dev environment...</span>
+<span class="go">...</span>
+<span class="go">Creating virtual environment (dev.cpython-313-x86_64-linux-gnu)... done</span>
+
 <span class="go">[hello-world] Installing requirements...</span>
 <span class="go">...</span>
 
@@ -1776,6 +1784,10 @@ aria-label="頁首"
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><span class="gp gp-VirtualEnv">(beeware-venv)</span> <span class="gp">C:\...&gt;</span><span class="k">cd</span> helloworld
 <span class="gp gp-VirtualEnv">(beeware-venv)</span> <span class="gp">C:\...&gt;</span>briefcase dev
+
+<span class="go">[helloworld] Activating dev environment...</span>
+<span class="go">...</span>
+<span class="go">Creating virtual environment (dev.cp313-win_amd64)... done</span>
 
 <span class="go">[hello-world] Installing requirements...</span>
 <span class="go">...</span>
@@ -1800,6 +1812,11 @@ aria-label="頁首"
 <p><img alt="Hello World 教學 1 視窗，在 Linux 上" src="../../images/linux/tutorial-1.png" />。</p>
 <figcaption></figcaption>
 </figure>
+<div class="admonition">
+<p class="admonition-title">執行 <code>briefcase dev</code> 時可能發生的錯誤</p>
+<p>若執行 <code>briefcase dev</code> 時出現錯誤，幾乎可確定是某些系統需求尚未安裝。請確認您已
+<a class="autorefs autorefs-internal" title="安裝依賴項目" href="../tutorial-0/#install-dependencies">安裝所有平台先決條件</a>；您收到的錯誤訊息應會告知哪些套件缺失。</p>
+</div>
 </div>
 <div class="tabbed-block">
 <figure>
